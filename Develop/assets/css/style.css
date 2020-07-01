@@ -179,6 +179,9 @@ nav a {
 /*  */
 /* web */
 /*  */
+/* #s3 {
+    background-image: linear-gradient(#f3d1f4, lavender);
+} */
 
 #s3 h1 {
     color: black;
@@ -214,7 +217,8 @@ nav a {
 /* Photography */
 /*  */
 #s4 {
-    background-image: linear-gradient(firebrick, mediumvioletred);
+    background-image: linear-gradient(180deg, firebrick, deeppink);
+    /* background-image: linear-gradient(firebrick, mediumvioletred); */
 }
 
 #s4 h1 {
@@ -260,14 +264,10 @@ footer {
     width: 100%;
     position: absolute;
     color: black;
-    text-align: right;
+    text-align: center;
     font-size: 15px;
     bottom: 0;
     padding: 10px;
-}
-
-#rights {
-    float: left;
 }
 
 @media only screen and (max-width: 768px) {
