@@ -117,12 +117,11 @@ nav a {
 }
 
 /*  */
-/* Resume */
+/* About */
 /*  */
 
 #s2 {
-   background-color: black;
-   /* background-image: linear-gradient(#162447, #142850); */
+   background-image: linear-gradient(cornflowerblue, skyblue);
 }
 
 #s2 h1 {
@@ -131,10 +130,19 @@ nav a {
 
 #s2 p {
     position: absolute;
+    text-align: left;
     width: 50%;
     z-index: 1;
+    left: 5%;
     top: 40%;
     color: white;
+}
+
+#maya {
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -181,8 +189,9 @@ nav a {
     top: 40%;
     width: 50%;
     z-index: 1;
-    right: 3%;
+    right: 5%;
     color: black;
+    text-align: right;
 }
 
 #s3 img {
@@ -205,14 +214,20 @@ nav a {
 /* Photography */
 /*  */
 #s4 {
-    background-image: linear-gradient(cornflowerblue, skyblue);
+    background-image: linear-gradient(firebrick, mediumvioletred);
+}
+
+#s4 h1 {
+    color: white;
 }
 
 #s4 p {
     position: absolute;
     top: 40%;
-    left: 3%;
+    left: 5%;
     width: 50%;
+    text-align: left;
+    color: white;
 }
 
 #s4 img {
