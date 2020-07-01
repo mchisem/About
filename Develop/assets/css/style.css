@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*  */
+/* navbar */
+/*  */
+nav {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a {
+    display: inline-block;
+    line-height: 18px;
+}
+
+#home,
+#about,
+#resume {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+#contact {
+    float: right;
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+/*  */
+/* about */
+/*  */
+#s1 {
+    text-align: center;
+}
+
+#s1 h1 {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: -webkit-linear-gradient(120deg, black,grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+#s1 p {
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0%;
+    font-size: 24px;
+}
+
+#watch {
+    position: absolute;
+    width: 100%;
+}
+
+#video {
+    position: absolute;
+    left: 34% !important;
+    margin-top: 23% !important;
+    z-index: 999;
+}
+
+.hide {
+    display: none;
+}
+
+#s1 .fa {
+    text-decoration: none;
+    color: black;
+    font-size: 7px !important;
+    padding: 10px;
+}
+
+#s1 .fa:hover {
+    opacity: 1;
+}
+
+#s2,
+#s3,
+#s4,
+#s5,
+#s6 {
+    text-align: center;
+    font-size: 27px;
+    width: 100%;
+}
+
+#s2 h1,
+#s3 h1,
+#s4 h1,
+#s5 h1,
+#s6 h1 {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*  */
+/* Resume */
+/*  */
+
+#s2 {
+   background-color: black;
+   /* background-image: linear-gradient(#162447, #142850); */
+}
+
+#s2 h1 {
+    color: white;
+}
+
+#s2 p {
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    top: 40%;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #s2 p {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        clear: both;
+        font-size: 17px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+  }
+
+#s2 .fa {
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+    font-size: 50vh !important;
+}
+  
+#s2 p a,
+#s3 p a,
+#s4 p a {
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 5px;
+    z-index: 1;
+}
+
+/*  */
+/* web */
+/*  */
+
+#s3 h1 {
+    color: black;
+}
+
+#s3 p {
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    z-index: 1;
+    right: 3%;
+    color: black;
+}
+
+#s3 img {
+    position: absolute;
+    height: 60vh;
+    top: 30%;   
+    left: 8%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #s3 img {
+        height: 70vh;
+        width: 100%;
+        z-index: -1;
+    }
+    }
+
+/*  */
+/* Photography */
+/*  */
+#s4 {
+    background-image: linear-gradient(cornflowerblue, skyblue);
+}
+
+#s4 p {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    width: 50%;
+}
+
+#s4 img {
+    position: absolute;
+    height: 100vh;
+    right: 0;
+    bottom: 0;
+}
+
+#s4 p a {
+    color: darkblue;
+}
+
+
+/*  */
+/* content */
+/*  */
+#s5 p {
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    z-index: 1;
+    right: 0;
+}
+
+/*  */
+/* footer */
+/*  */
+footer {
+    width: 100%;
+    position: absolute;
+    color: black;
+    text-align: right;
+    font-size: 15px;
+    bottom: 0;
+    padding: 10px;
+}
+
+#rights {
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #footer
+    {
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+        left: 0;
+    }
+    }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    footer .fa
+    {
+        margin-right: 10px;
+    }
+    }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #insta
+    {
+        margin-right: 15px;
+    }
+    }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #rights
+    {
+        display: none;
+    }
+    }
