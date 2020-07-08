@@ -15,6 +15,8 @@ new fullpage("#fullpage", {
        
        if(destination.index === 0) {
            document.getElementById("contact").style.color = "black";
+           document.getElementById("home").style.color = "black";
+
 
            video.classList.remove("hide");
          
@@ -25,7 +27,8 @@ new fullpage("#fullpage", {
 
        else if(destination.index === 1) {
            document.getElementById("contact").style.color = "white";
-
+           document.getElementById("home").style.color = "white";
+           
            video.classList.add("hide");
 
            tl.fromTo(maya, 0.5,
@@ -35,6 +38,7 @@ new fullpage("#fullpage", {
 
        else if(destination.index === 2) {
            document.getElementById("contact").style.color = "black";
+           document.getElementById("home").style.color = "black";
 
            video.classList.add("hide");
 
@@ -46,6 +50,7 @@ new fullpage("#fullpage", {
 
        else if(destination.index === 3) {
            document.getElementById("contact").style.color = "white";
+           document.getElementById("home").style.color = "white";
 
            video.classList.add("hide");
 

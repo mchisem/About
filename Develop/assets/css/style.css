@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /*  */
 /* navbar */
 /*  */
@@ -44,6 +40,8 @@ nav a {
 /*  */
 #s1 {
     text-align: center;
+    background-color: white;
+    color: black;
 }
 
 #s1 h1 {
@@ -52,10 +50,12 @@ nav a {
     left: 0;
     right: 0;
     font-size: 90px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background: -webkit-linear-gradient(120deg, black,grey);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 #s1 p {
@@ -119,7 +119,6 @@ nav a {
 /*  */
 /* About */
 /*  */
-
 #s2 {
    background-image: linear-gradient(cornflowerblue, skyblue);
 }
@@ -179,10 +178,6 @@ nav a {
 /*  */
 /* web */
 /*  */
-/* #s3 {
-    background-image: linear-gradient(#f3d1f4, lavender);
-} */
-
 #s3 h1 {
     color: black;
 }
