@@ -53,9 +53,9 @@ nav a {
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'Noto Sans', sans-serif;
     color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-fill-color: white; */
+    /* -webkit-text-stroke-width: 1px; */
+    /* -webkit-text-stroke-color: black; */
 }
 
 #s1 p {
